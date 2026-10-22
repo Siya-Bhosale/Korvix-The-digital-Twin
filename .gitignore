@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+backend/*/__pycache__/
+*.pyc
+
+# Local Database & Environment Files
+backend/korvix.db
+backend/korvix.db-journal
+*.db
+*.sqlite3
+.env
+.env.local
+*.log
+
+# Build Outputs
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
